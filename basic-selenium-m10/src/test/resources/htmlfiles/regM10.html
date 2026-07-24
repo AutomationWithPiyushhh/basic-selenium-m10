@@ -6,42 +6,60 @@
 	
 	<body> 
 	<!-- view port are -->
+	<!-- <div> => <span> <section> .... 8+ tags -->		
 		<h3>Reg Form M10</h3>
 		
-		<label>Name : </label>
+		<div>
+			<label>Name : </label>
+		    <input type="text">
+		</div>
 		
-		<input type="text">
 		
-		<br><br>
+		<div>
+			<label>Mobile : </label>
+			<input type="number">
+		</div>
 		
-		<label>Mobile : </label>
 		
-		<input type="number">
+		<div>
+			<label>Password : </label>
+			<input type="password">
+		</div>
 		
-		<br><br>
 		
-		<label>Password : </label>
+		<div>
+			<label>Conf pwd : </label>
+			<input type="password">
+		</div>
 		
-		<input type="password">
 		
-		<br><br>
+		<div>
+			<span>
+				<span>
+					<label>Male</label>
+				</span>
+				<span>
+					<input type="radio" name="gender">
+				</span>
+			</span>
+			<span>
+				<span>
+					<label>Female</label>
+				</span>
+				<span>
+					<input type="radio" name="gender">
+				</span>
+			</span>
+		</div>
 		
-		<label>Conf pwd : </label>
-		
-		<input type="password">
-		
-		<br><br>
-		
-		<label>Male</label>
-		<input type="radio" name="gender">
-		<label>Female</label>
-		<input type="radio" name="gender">
-		
-		<br><br>
-		
-		<input type="button" value="Submit"> <input type="button" value="Cancel">
-		
-		<hr>
+		<div>
+			<span>
+				<input type="button" value="Submit"> 
+			</span>
+			<span>
+				<input type="button" value="Cancel">
+			</span>
+		</div>
 		
 	</body>
 
