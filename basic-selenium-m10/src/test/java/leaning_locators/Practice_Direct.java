@@ -12,8 +12,6 @@ public class Practice_Direct {
 
 		driver.get("https://automationwithpiyush.vercel.app/locators.html");
 
-//		Task 1: Locate the Username field 
-
 //		hey driver, find the element by id => user_login_field 
 		WebElement username = driver.findElement(By.id("user_login_field"));
 
