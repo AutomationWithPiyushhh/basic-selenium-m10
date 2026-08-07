@@ -35,13 +35,13 @@ public class AWP_signup {
 				System.out.println("Male radio button got selected....");
 			}
 		}
-		
+
 		Thread.sleep(2000);
-		
+
 //		type = "submit" and descendant of <form>
 		WebElement submitButton = driver.findElement(By.cssSelector("button[type='submit']"));
 //		submitButton.submit();
-		
+
 //		getters
 
 		String tag = submitButton.getTagName();
@@ -78,21 +78,7 @@ public class AWP_signup {
 		System.out.println("Rectangle Point: " + pt2);
 		System.out.println("Rectangle X: " + rect.getX());
 		System.out.println("Rectangle Y: " + rect.getY());
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
 		Thread.sleep(3000);
 		driver.quit();
 	}
