@@ -69,6 +69,8 @@ public class AWP_MouseActions {
 //		act.contextClick(rc).perform();
 
 //		doubleClick
+		
+		
 
 //		click and hold
 //		WebElement hold = driver.findElement(By.id("hold-icon"));
