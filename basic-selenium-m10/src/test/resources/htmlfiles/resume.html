@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Resume Upload</title>
+</head>
+
+<body>
+
+    <h1>Student Resume Upload Form</h1>
+
+    <form>
+
+        <label for="studentName">Student Name:</label>
+        <input type="text" id="studentName" name="studentName" placeholder="Enter your name">
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <br><br>
+
+        <label for="phone">Mobile Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter mobile number">
+        <br><br>
+
+        <label for="qualification">Qualification:</label>
+        <select id="qualification" name="qualification">
+            <option value="">-- Select Qualification --</option>
+            <option value="bca">BCA</option>
+            <option value="mca">MCA</option>
+            <option value="btech">B.Tech</option>
+            <option value="mtech">M.Tech</option>
+            <option value="bsc">B.Sc</option>
+            <option value="msc">M.Sc</option>
+        </select>
+        <br><br>
+
+        <label for="experience">Experience:</label>
+        <select id="experience" name="experience">
+            <option value="">-- Select Experience --</option>
+            <option value="fresher">Fresher</option>
+            <option value="0-1">0 - 1 Year</option>
+            <option value="1-2">1 - 2 Years</option>
+            <option value="2-3">2 - 3 Years</option>
+            <option value="3+">3+ Years</option>
+        </select>
+        <br><br>
+
+        <label for="skills">Primary Skill:</label>
+        <input type="text" id="skills" name="skills"
+               placeholder="e.g. Java Selenium">
+        <br><br>
+
+        <label >Upload Resume:</label>
+        <input id="resume" type="file" >
+        <br>
+
+        <small>Accepted formats: PDF, DOC, DOCX</small>
+        <br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+
+    </form>
+
+</body>
+</html>
